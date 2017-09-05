@@ -39,12 +39,12 @@ To viewing recent changes:
 1.	From the main menu, select **View** > **Recent Changes**, or use **Shift+Alt+C** shortcut.
 2.	The **Recent Changes** pop-up is displayed, select the change you want to view:
 
-[![Picture 2](//2.jpg)](https://drive.google.com/open?id=0Bw-5DgdvfgYaSW55emVrVFNSVEk) 
+![2](https://user-images.githubusercontent.com/31585691/30051354-c8d6080a-9232-11e7-9e69-ad8b61b8e3c1.jpg) 
 
 3.	Select the change you want to view.
 4.	The dialogue with change details is displayed. You can do one of the following:
 
-[![Picture 3](//3.jpg)](https://drive.google.com/open?id=0Bw-5DgdvfgYaSHJzQXhEQS1ETFU)
+![3](https://user-images.githubusercontent.com/31585691/30051370-d7d30894-9232-11e7-84d5-c9f7eb9091e1.jpg)
 
        * Click the **Show difference** icon to view the differences and compare the versions;
        * Click the **Revert selection** icon  to discard the change.
