@@ -1,4 +1,4 @@
-# Viewing Changes in Project
+# Managing Changes in Project
 ## Table of Contents
   * [Marking Versions With Labels](#marking-versions-with-labels)
     + [Labeling Local Version](#labeling-local-version)
@@ -12,14 +12,15 @@
     + [Viewing Local History for Selected Source Code Fragment](#viewing-local-history-for-selected-source-code-fragment)
   * [Discarding Changes and Restoring Versions From Local History](#discarding-changes-and-restoring-versions-from-local-history)
 
-This section describes how to view changes in a project and how to operate the **Local History** -- your personal version control system. 
-With IntelliJ IDEA, you can:
-*	Put labels to mark and save stable versions;
-*	View the most recent changes;
+This section describes how to manage changes in a project and how to view and operate the **Local History** -- your personal version control system. 
+IntelliJ IDEA allows you to:
+*	[Put labels to mark and save stable versions;](#marking-versions-with-labels)
+*	[View the most recent changes;](#viewing-recent-changes)
 *	View changes made to:
-       * A certain element or code fragment;  
-       * A file or a folder.  
-*	Discard changes and roll back to the previous version;
+       * [A file or a folder;](#viewing-local-history-for-file-or-folder)
+       * [A certain element or code fragment;](#viewing-local-history-of-code-elements)  
+       * [A method or a field.](#viewing-local-history-for-method-or-field)
+*	[Discard changes and roll back to the previous version;](#discarding-changes-and-restoring-versions-from-local-history)
 
 ## Marking Versions With Labels
 
@@ -72,7 +73,8 @@ To view **Local History**
       *	From the main **VCS** menu, select **Local History** > **Show History**.
       *	By right-clicking select **Local History** > **Show History** in the context menu.
       *	Press **Alt+Back Quote**, and choose the **Show History** option from the **VCS Operations** quick list.
-3.	The Local History dialogue is displayed.
+3.	The **Local History** dialogue is displayed.
+
 ![5](https://user-images.githubusercontent.com/31585691/30063433-bc5844f8-925f-11e7-9676-9070652fc17a.jpg)
 
 ### Local History Parameters
@@ -90,12 +92,12 @@ The **Jump to Source** option ![10](https://user-images.githubusercontent.com/31
 The **Collapse unchanged fragments** option ![11](https://user-images.githubusercontent.com/31585691/30063863-12c4574a-9261-11e7-948d-9724643f1f8c.jpg) | Click it to display only the changed fragments. This option helps you to review changes quickly.
 The S**ynchronize scrolling** option ![12](https://user-images.githubusercontent.com/31585691/30063873-1d62e4b4-9261-11e7-9bf5-5d94155db920.jpg) | Click this icon to synchronize scrolling 
 **Settings** ![13](https://user-images.githubusercontent.com/31585691/30063883-285c2eb6-9261-11e7-973c-5f18c4a6918c.jpg) | Opens the list of available settings
- **Help** ![14](https://user-images.githubusercontent.com/31585691/30063891-2c47e1d2-9261-11e7-99d5-6e9bcccd05dc.jpg) | Opens the online Help in the corresponding section
+ **Help** ![14](https://user-images.githubusercontent.com/31585691/30063891-2c47e1d2-9261-11e7-99d5-6e9bcccd05dc.jpg) | Opens the online Help in the corresponding section 
 Browsers icons ![15](https://user-images.githubusercontent.com/31585691/30063964-6af6da32-9261-11e7-8517-c8289691344f.jpg) | Browser icons appear in the right pane, in the code body. Click one of them to view the source code in the corresponding browser. **Note** Only browsers available on your PC are displayed.
 
 ## Viewing Local History of Code Elements
 You can also track local changes made to a class, its elements, or a selected block of a source code. 
-Note This history shows only changes that affect the selected element or code fragment.
+**Note** This history shows only changes that affect the selected element or code fragment.
 
 ### Viewing Local History for Class
 To view **Local History** for a class
@@ -103,9 +105,9 @@ To view **Local History** for a class
 2.	In the main **VCS** menu, or in the context menu, choose **Local History** > **Show History for Class**.
 
 ### Viewing Local History for Method or Field
-To view **Local History** of a method or a field
+To view **Local History** of a method or a field:
 1.	In the editor, place the caret at the name of a method or a field.
-2.	In the main **VCS** menu, or in the context menu, select **Local History** > S**how History for Method (Field)**.
+2.	In the main **VCS** menu, or in the context menu, select **Local History** > **Show History for Method (Field)**.
 
 ### Viewing Local History for Selected Source Code Fragment
 To view **Local History** of a selected source code fragment:
