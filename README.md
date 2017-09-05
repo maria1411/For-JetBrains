@@ -25,7 +25,7 @@ To put a label on a local version:
        *	Press **Alt+Back Quote** and select **Put Label** from the **VCS Operations** quick list.
 3.	The **Put Label** dialogue is displayed, fill out the label name in the corresponding field.
 
-[![Picture 1](//1.jpg)](https://drive.google.com/open?id=0Bw-5DgdvfgYaMEFyNjNFcEtQWm8)
+![1](https://user-images.githubusercontent.com/31585691/30051310-8f6ea414-9232-11e7-879f-5f42b94558d0.jpg)
 
 ## Viewing Recent Changes
 
