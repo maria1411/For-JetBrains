@@ -1,5 +1,16 @@
-# For JetBrains
-## Using Local History
+# Using Local History
+## Table of Contents
+  * [Marking Versions With Labels](#marking-versions-with-labels)
+    + [Labeling a local version](#labeling-a-local-version)
+  * [Viewing Recent Changes](#viewing-recent-changes)
+  * [Viewing Local History for File or Folder](#viewing-local-history-for-file-or-folder)
+    + [Viewing local history](#viewing-local-history)
+    + [Local History Parameters](#local-history-parameters)
+  * [Viewing Local History of Code Elements](#viewing-local-history-of-code-elements)
+    + [Viewing Local History for Class](#viewing-local-history-for-class)
+    + [Viewing Local History For Method or Field](#viewing-local-history-for-method-or-field)
+    + [Viewing local history for a selected source code fragment](#viewing-local-history-for-a-selected-source-code-fragment)
+  * [Discarding Changes and Restoring  Versions From Local History](#discarding-changes-and-restoring--versions-from-local-history)
 
 This section describes how to use **Local History** -- your personal version control system. 
 Via **Local History**, you can:
@@ -46,6 +57,69 @@ To viewing recent changes:
 
 ![3](https://user-images.githubusercontent.com/31585691/30051370-d7d30894-9232-11e7-84d5-c9f7eb9091e1.jpg)
 
-       * Click the **Show difference** icon to view the differences and compare the versions;
-       * Click the **Revert selection** icon  to discard the change.
-       * Click **Expand All** or **Collapse All** options to view or hide the details.
+* Click the **Show difference** icon to view the differences and compare the versions;
+* Click the **Revert selection** icon  to discard the change.
+* Click **Expand All** or **Collapse All** options to view or hide the details.
+
+## Viewing Local History for File or Folder
+
+The **Local History** makes it possible to view changes made to a certain file or a folder. The **Local History** for a file includes all changes that affect both the selected file and the whole project; the **Local History** for a folder shows changes to the source code tree in general. 
+
+### Viewing local history 
+To view local history
+1.	Select a folder/file in the Project pane, or open the folder/file in the editor.
+2.	Do one of the following:
+      *	From the main VCS menu, select Local History > Put Label.
+      *	By right-clicking select Local History > Show History in the context menu.
+      *	Press Alt+Back Quote, and choose the Show History option from the VCS Operations quick list.
+3.	The Local History dialogue is displayed.
+
+### Local History Parameters
+Name | Description
+------------ | -------------
+The Left Pane | Contains the list of all changes within 12 hours. The time the change has been made is indicated there.
+The Right Pane | Displays the contents
+Viewing the contents | You can select the way the changes are displayed in the right pane in the upper panel. <li> Side-be-side viewer – divides the pane the previous and current versions and highlights the changes.</li> <li>Unified viewer – displays the current version and highlights the changes.</li>
+Ignoring/not ignoring whitespaces and empty lines | In the upper pane, you can select to ignore or not ignore whitespaces and empty line. Possible options: <li> Do not ignore;</li> <li> Trim whitespaces;</li> <li> Ignore whitespaces;</li> <li>Ignore whitespaces and empty line.</li>
+Highlighting certain parts of code | Enables highlighting certain parts of code. Possible options: <li> Highlight words;</li> <li> Highlight lines;</li> <li> Highlight split changes;</li> <li> Do not highlight.</li>
+
+
+## Viewing Local History of Code Elements
+You can also track local changes made to a class, its elements, or a selected block of a source code. 
+Note This history shows only changes that affect the selected element or code fragment.
+
+### Viewing Local History for Class
+To view local history for a class
+1.	Select a class file in the project tool window, or right-click class name in the editor.
+2.	In the main VCS menu, or in the context menu, choose Local History > Show History for Class.
+
+### Viewing Local History For Method or Field
+To view local history of a method or a field
+1.	In the editor, place the caret at the name of a method or a field.
+2.	In the main VCS menu, or in the context menu, select Local History > Show History for Method (Field).
+Viewing local history for a selected source code fragment
+To view local history of a selected source code fragment:
+1.	In the editor, select a fragment of source code.
+2.	Do one of the following:
+       *	From the main VCS menu, select Local History > Show History for Selection.
+       *	By right-clicking select Local History > Show History for Selection in the context menu.
+       *	Press Alt+Back Quote, and choose a command from the VCS Operations quick list.
+3.	The dialogue with change details is displayed.
+
+### Viewing local history for a selected source code fragment
+To view local history of a selected source code fragment:
+1.	In the editor, select a fragment of source code.
+2.	Do one of the following:
+       *	From the main VCS menu, select Local History > Show History for Selection.
+       *	By right-clicking select Local History > Show History for Selection in the context menu.
+       *	Press Alt+Back Quote, and choose a command from the VCS Operations quick list.
+3.	The dialogue with change details is displayed.
+
+## Discarding Changes and Restoring  Versions From Local History
+If necessary, you discard changes via the Local History and restore a selected version.
+To discard changes in the Local History:
+1.	Open the Local History.
+2.	Select the version you want to roll back to.
+3.	On the toolbar, click the Revert selection icon  .
+4.	The selected version is restored. 
+
